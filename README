@@ -1,0 +1,4 @@
+pyjsonrpc is a extremely compact jsonrpc 2.0 library
+
+In difference to each other jsonrpc 2.0 compatible python libraries, 
+this one does NOT close the socket after communication so that multiple requests could be done through one socket.
